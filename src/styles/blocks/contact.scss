@@ -1,7 +1,6 @@
 .contact {
   @include on-desktop {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    @include page-grid;
 
     &__info {
       grid-column: 7 / -1;
