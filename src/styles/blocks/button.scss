@@ -1,0 +1,26 @@
+.button {
+  height: 56px;
+  border-radius: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  background-color: $main-text-color;
+  color: $white-text-color;
+  border: 0;
+
+  @include onDesktop {
+    width: 324px;
+  }
+
+  &:hover {
+    background-color: $grey-background-color;
+    border: 2px solid $grey-border-color;
+    color: $main-text-color;
+  }
+
+  &:active {
+    background-color: #111;
+    color: $white-text-color;
+  }
+}
