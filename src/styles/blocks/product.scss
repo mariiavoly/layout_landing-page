@@ -6,17 +6,19 @@
   &__photo {
     width: 100%;
     margin-bottom: 24px;
+
+    @include hover(transform, scale(1.07));
   }
 
   &__description {
-    @include monoNormal;
+    @include mono-normal;
 
     margin: 0 0 12px;
 
     &--phone::before {
       content: 'Designed with instinct, to bring joy back to the everyday. ';
 
-      @include onDesktop {
+      @include on-desktop {
         content: '';
       }
     }

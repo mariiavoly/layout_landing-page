@@ -1,5 +1,5 @@
 .contact {
-  @include onDesktop {
+  @include on-desktop {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
@@ -21,11 +21,11 @@
     flex-direction: column;
     margin-bottom: 48px;
 
-    @include onTablet {
+    @include on-tablet {
       margin-bottom: 80px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       margin-bottom: 0;
     }
 
@@ -34,7 +34,7 @@
       width: 100%;
       padding: 14px 16px;
 
-      @include monoNormal;
+      @include mono-normal;
 
       font-size: 14px;
 
@@ -83,7 +83,7 @@
   }
 
   &__description {
-    @include monoNormal;
+    @include mono-normal;
 
     margin: 0 0 24px;
 

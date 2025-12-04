@@ -9,7 +9,7 @@
   color: $white-text-color;
   border: 0;
 
-  @include onDesktop {
+  @include on-desktop {
     width: 324px;
   }
 
