@@ -10,15 +10,15 @@
   border: 0;
 
   &--view-all {
-   @include on-desktop {
-    width: 324px;
-  }
+    @include on-desktop {
+      width: 324px;
+    }
   }
 
   &--send {
     @include on-desktop {
-    width: 411px;
-  }
+      width: 411px;
+    }
   }
 
   &:hover {
