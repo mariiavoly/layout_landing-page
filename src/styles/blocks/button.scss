@@ -9,8 +9,16 @@
   color: $white-text-color;
   border: 0;
 
-  @include on-desktop {
+  &--view-all {
+   @include on-desktop {
+    width: 324px;
+  }
+  }
+
+  &--send {
+    @include on-desktop {
     width: 411px;
+  }
   }
 
   &:hover {
